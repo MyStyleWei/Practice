@@ -74,7 +74,6 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration{
             int right = mDivider.getIntrinsicWidth() + left;
             mDivider.setBounds(left,top,left,right);
             mDivider.draw(canvas);
-
         }
     }
 
