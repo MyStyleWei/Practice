@@ -1,6 +1,6 @@
 package com.liwei.custom;
 
-import android.animation.ValueAnimator;
+
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -9,9 +9,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import com.example.weili.practice.R;
-
 import java.util.Random;
 
 /**
@@ -83,7 +81,7 @@ public class BarrageView extends TextView {
         }
     }
 
-    private void staryAnim(){
+    private void startAnim(){
 
     }
 
