@@ -26,5 +26,6 @@
     <item>本应用链接：http://blog.csdn.net/xieyupeng520/article/details/49232925</item>
     </string-array>
     <string name="title_activity_barrage">BarrageActivity</string>
+    <string name="title_activity_cava">CavaActivity</string>
 
 </resources>

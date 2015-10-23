@@ -24,6 +24,10 @@
             android:name=".BarrageActivity"
             android:label="@string/title_activity_barrage" >
         </activity>
+        <activity
+            android:name=".CavaActivity"
+            android:label="@string/title_activity_cava" >
+        </activity>
     </application>
 
 </manifest>

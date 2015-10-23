@@ -46,6 +46,9 @@ public class MainActivity extends Activity {
                         case 1:
                             targetClass = BarrageActivity.class;
                             break;
+                        case 2:
+                            targetClass = CavaActivity.class;
+                            break;
                         default:
                             break;
                     }
