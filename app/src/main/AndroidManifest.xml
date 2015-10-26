@@ -28,6 +28,14 @@
             android:name=".CavaActivity"
             android:label="@string/title_activity_cava" >
         </activity>
+        <activity
+            android:name=".ScorActivity"
+            android:label="@string/title_activity_scor" >
+        </activity>
+        <activity
+            android:name=".RxJavaActivity"
+            android:label="@string/title_activity_rx_java" >
+        </activity>
     </application>
 
 </manifest>

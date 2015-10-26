@@ -27,5 +27,7 @@
     </string-array>
     <string name="title_activity_barrage">BarrageActivity</string>
     <string name="title_activity_cava">CavaActivity</string>
+    <string name="title_activity_scor">ScorActivity</string>
+    <string name="title_activity_rx_java">RxJavaActivity</string>
 
 </resources>

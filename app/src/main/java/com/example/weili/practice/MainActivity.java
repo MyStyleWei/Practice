@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.liwei.adapter.HomeAdapter;
@@ -48,6 +49,12 @@ public class MainActivity extends Activity {
                             break;
                         case 2:
                             targetClass = CavaActivity.class;
+                            break;
+                        case 3:
+                            targetClass = ScorActivity.class;
+                            break;
+                        case 4:
+                            targetClass = RxJavaActivity.class;
                             break;
                         default:
                             break;
