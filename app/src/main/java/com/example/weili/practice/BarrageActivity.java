@@ -37,7 +37,7 @@ public class BarrageActivity extends ActionBarActivity {
                 addContentView(barrageView, lp);
 
                 //发送下一条消息
-                handler.postDelayed(this, DELAY_TIME);
+                handler.postDelayed(this, 1000);
             }
         };
         handler.post(createBarrageView);

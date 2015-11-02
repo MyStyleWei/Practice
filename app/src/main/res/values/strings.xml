@@ -29,5 +29,13 @@
     <string name="title_activity_cava">CavaActivity</string>
     <string name="title_activity_scor">ScorActivity</string>
     <string name="title_activity_rx_java">RxJavaActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="username_error">用户名出错</string>
+    <string name="password_error">密码出错</string>
+    <string name="title_activity_radial">RadialActivity</string>
+    <string name="title_activity_sweep_gradient">SweepGradientActivity</string>
+    <string name="title_activity_ref_watcher">RefWatcherActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
 
 </resources>

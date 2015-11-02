@@ -44,7 +44,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder>{
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
-        holder.tv.setText(mDatas.get(position));
+            holder.tv.setText(mDatas.get(position));
             if(listener != null){
                 holder.tv.setOnClickListener(new View.OnClickListener(){
 

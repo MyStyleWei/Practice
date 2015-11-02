@@ -9,7 +9,9 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import com.example.weili.practice.R;
+
 import java.util.Random;
 
 /**
@@ -59,7 +61,7 @@ public class BarrageView extends TextView {
 
         //设置x为屏幕宽
         posX = windowWidth;
-        posY = textSize + random.nextInt(windowHeight - textSize);
+        posY = (textSize + random.nextInt(windowHeight - textSize))/2;
 
     }
 
@@ -90,7 +92,8 @@ public class BarrageView extends TextView {
         @Override
         public void run() {
             while (true){
-                animLogic();
+              animLogic();
+
                 postInvalidate();
                 try {
                     Thread.sleep(1000);
@@ -124,7 +127,7 @@ public class BarrageView extends TextView {
      * 动画逻辑处理
      */
     private void animLogic(){
-        posX -= 8;
+        posX -= 20;
     }
 
     /**
@@ -138,4 +141,7 @@ public class BarrageView extends TextView {
     public void setOnRollEndListener(OnRollEndListener listener){
         this.listener = listener;
     }
+
+
+
 }

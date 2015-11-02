@@ -8,9 +8,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import com.liwei.adapter.HomeAdapter;
 import com.liwei.custom.DividerItemDecoration;
 import java.util.ArrayList;
@@ -22,6 +19,9 @@ public class MainActivity extends Activity {
     private RecyclerView mRecyclerView;
     private List<String> mDatas;
     private HomeAdapter mAdapter;
+    private String[] str = {"SnackbarActivity","BarrageActivity","CavaActivity"
+            ,"ScorActivity","RxJavaActivity","LoginActivity","RadialActivity"
+            ,"SweepGradientActivity","RefWatcherActivity","FragmentActivity"};
 
 
     @Override
@@ -37,7 +37,6 @@ public class MainActivity extends Activity {
         mAdapter.setonItemClickListener(new HomeAdapter.onItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
-//                Toast.makeText(MainActivity.this, position+"", Toast.LENGTH_SHORT).show();
                 Class targetClass = null;
                 if(targetClass == null){
                     switch (position){
@@ -56,6 +55,21 @@ public class MainActivity extends Activity {
                         case 4:
                             targetClass = RxJavaActivity.class;
                             break;
+                        case 5:
+                            targetClass = LoginActivity.class;
+                            break;
+                        case 6:
+                            targetClass = RadialActivity.class;
+                            break;
+                        case 7:
+                            targetClass = SweepGradientActivity.class;
+                            break;
+                        case 8:
+                            targetClass = RefWatcherActivity.class;
+                            break;
+                        case 9:
+                            targetClass = FragmentActivity.class;
+                            break;
                         default:
                             break;
                     }
@@ -71,9 +85,10 @@ public class MainActivity extends Activity {
 
     private void initDatas(){
         mDatas = new ArrayList<String>();
-        for(int i = 'A';i<'z';i++){
-            mDatas.add(""+(char)i );
+        for(int i = 0;i<str.length;i++){
+            mDatas.add(str[i]);
         }
+
     }
 
 
