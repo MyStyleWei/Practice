@@ -1,31 +1,118 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
 
     defaultConfig {
         applicationId "com.example.weili.practice"
-        minSdkVersion 15
-        targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode rootProject.prodVersionCode
+        versionName rootProject.prodVersionName
+        aaptOptions {
+            additionalParameters "--no-version-vectors"
+        }
+            ndk {
+            moduleName "liweiJni"
+            abiFilters "armeabi", "armeabi-v7a", "x86"
+        }
+    }
+
+
+    signingConfigs{
+        release{
+//            storeFile file("practice.keystore")
+//            storePassword "3b438cc3d215fda599e3b1c6824c5fb7"
+//            keyAlias "practice.keystore"
+//            keyPassword "3b438cc3d215fda599e3b1c6824c5fb7"
+        }
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true//是否混淆
+            zipAlignEnabled true
+            shrinkResources true//移除未使用的资源
+      //      signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            applicationVariants.all{varaint ->
+//                varaint.outputs.each{output ->
+//                    if(output.outputFile != null &&output.outputFile.name.endsWith('.apk')){
+//                        File outputDirectory = new File(outputFile.parent);
+//                        def fileName
+//                        if(varaint.buildType.name == "release"){
+//                            fileName="appName_v${defaultConfig.versionName}_${packageTime()}_${variant.productFlavors[0].name}.apk"
+//                        }else{
+//                            fileName = "appName_v${defaultConfig.versionName}_${packageTime()}_beta.apk"};output.outputFile = new File(outputDirectory, fileName)
+//                        }
+//
+//                    }
+//
+//                }
+
         }
+
+    }
+
+    productFlavors{
+        free {
+            applicationId 'com.example.weili.practice.free'
+        }
+        enterprise {
+            applicationId 'com.example.weili.practice'
+        }
+    }
+
+    sourceSets {
+        main {
+            jni.srcDirs = ['src/main/jni', 'src/main/jni/x86', 'src/main/jni/mips', 'src/main/jni/armeabi', 'src/main/jni/armeabi-v7a']
+        }
+        main.java.srcDirs += 'src/main/kotlin'
     }
 }
 
+
+
+repositories {
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs folder
+    }
+    mavenCentral()
+}
+
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.1.1'
-    compile 'com.android.support:recyclerview-v7:+'
-    compile 'com.android.support:design:22.2.0'
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'io.reactivex:rxjava:1.0.10'
+    //   compile project(':myli')
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.3'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3'
+    compile(name: 'library-release', ext: 'aar')
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'io.reactivex:rxjava:1.0.10'
+    compile 'cn.pedant.sweetalert:library:1.3'
+    compile 'com.pnikosis:materialish-progress:1.0'
+    compile 'io.realm:realm-android:0.84.1'
+    compile 'com.google.android.gms:play-services-vision:8.1.0'
+    compile 'com.android.support:design:23.2.0'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.antonionicolaspina.revealtextview:revealtextview:1.0'
+    compile 'com.facebook.fresco:fresco:0.9.0+'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile  'com.android.support:appcompat-v7:23.2.0'
+    compile 'com.squareup.okhttp3:okhttp:3.0.1'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile 'io.reactivex:rxandroid:0.24.0'
+    compile 'com.google.code.gson:gson:2.3'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+}
+buildscript {
+    ext.kotlin_version = '1.0.0'
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
 }

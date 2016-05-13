@@ -1,18 +1,15 @@
 package com.example.weili.practice;
 
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.liwei.custom.Canav;
 
-import rx.Observable;
-import rx.Subscriber;
 
-
-public class CavaActivity extends ActionBarActivity {
+public class CavaActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

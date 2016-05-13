@@ -1,10 +1,8 @@
 package com.example.weili.practice;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -14,7 +12,7 @@ import com.mvp.LoginPresenterImpl;
 import com.mvp.LoginView;
 
 
-public class LoginActivity extends ActionBarActivity implements View.OnClickListener,LoginView{
+public class LoginActivity extends Activity implements View.OnClickListener,LoginView{
 
 
     private ProgressBar progressBar;

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.weili.practice.ExpandTextViewActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11111111111111111111111"/>
+
+    <com.com.liwei.widget.ExpandTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vnr en oib n额富哦额健康不能u可不能吧北京看病v可劲儿VBu二八率   饿哦五保户u吧人人URUI额确认会更好u俄日共和国回去入耳UR额排洪沟阸五日该何去任何四䦹"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二胡该好贵UI个航班我被评为去海边玩表情我看评价呢 UI然后把u版本健康宝宝VB"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ureaUI额uVBVB卡桔红我还VBv课VB呢吧v我吧v看就饿
+        "/>
+</LinearLayout>

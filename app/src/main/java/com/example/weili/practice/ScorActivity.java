@@ -1,12 +1,10 @@
 package com.example.weili.practice;
 
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Canvas;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
@@ -14,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.Scroller;
 
 
-public class ScorActivity extends ActionBarActivity {
+public class ScorActivity extends Activity {
 
     private Scroller mScroller;
     LinearLayout lay1,lay2,lay0;

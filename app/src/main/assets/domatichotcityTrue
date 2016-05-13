@@ -1,0 +1,3423 @@
+{
+  "responseMetaInfo": {
+    "resultCode": "0"
+  },
+  "GetHotDomesticCitiesAndAllCitiesResponse": {
+    "hotCities": [
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SHA",
+          "cityName": "上海"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SHA",
+            "airPortName": "上海虹桥机场"
+          },
+          {
+            "airPortCode": "PVG",
+            "airPortName": "上海浦东国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "BJS",
+          "cityName": "北京"
+        },
+        "airPort": [
+          {
+            "airPortCode": "PEK",
+            "airPortName": "北京首都国际机场"
+          },
+          {
+            "airPortCode": "NAY",
+            "airPortName": "北京南苑机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CAN",
+          "cityName": "广州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CAN",
+            "airPortName": "广州白云国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XMN",
+          "cityName": "厦门"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XMN",
+            "airPortName": "厦门高崎国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CTU",
+          "cityName": "成都"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CTU",
+            "airPortName": "成都双流国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TAO",
+          "cityName": "青岛"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TAO",
+            "airPortName": "青岛流亭机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "FOC",
+          "cityName": "福州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "FOC",
+            "airPortName": "福州长乐国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TSN",
+          "cityName": "天津"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TSN",
+            "airPortName": "天津机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SZX",
+          "cityName": "深圳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SZX",
+            "airPortName": "深圳宝安国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DLC",
+          "cityName": "大连"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DLC",
+            "airPortName": "大连周水子国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SHE",
+          "cityName": "沈阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SHE",
+            "airPortName": "沈阳桃仙国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KMG",
+          "cityName": "昆明"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KMG",
+            "airPortName": "昆明长水国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WUH",
+          "cityName": "武汉"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WUH",
+            "airPortName": "武汉天河国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CKG",
+          "cityName": "重庆"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CKG",
+            "airPortName": "重庆江北国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SYX",
+          "cityName": "三亚"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SYX",
+            "airPortName": "三亚机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KWL",
+          "cityName": "桂林"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KWL",
+            "airPortName": "桂林两江机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CSX",
+          "cityName": "长沙"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CSX",
+            "airPortName": "长沙黄花机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HFE",
+          "cityName": "合肥"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HFE",
+            "airPortName": "合肥新桥国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TYN",
+          "cityName": "太原"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TYN",
+            "airPortName": "太原武宿机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HAK",
+          "cityName": "海口"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HAK",
+            "airPortName": "海口美兰国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TXN",
+          "cityName": "黄山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TXN",
+            "airPortName": "黄山屯溪机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TNA",
+          "cityName": "济南"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TNA",
+            "airPortName": "济南遥墙机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CGO",
+          "cityName": "郑州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CGO",
+            "airPortName": "郑州新郑机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KHN",
+          "cityName": "南昌"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KHN",
+            "airPortName": "南昌昌北机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WNZ",
+          "cityName": "温州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WNZ",
+            "airPortName": "温州永强机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NKG",
+          "cityName": "南京"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NKG",
+            "airPortName": "南京禄口国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HGH",
+          "cityName": "杭州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HGH",
+            "airPortName": "杭州萧山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NGB",
+          "cityName": "宁波"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NGB",
+            "airPortName": "宁波栎社机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HRB",
+          "cityName": "哈尔滨"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HRB",
+            "airPortName": "哈尔滨太平国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SWA",
+          "cityName": "汕头"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SWA",
+            "airPortName": "汕头外砂机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "URC",
+          "cityName": "乌鲁木齐"
+        },
+        "airPort": [
+          {
+            "airPortCode": "URC",
+            "airPortName": "乌鲁木齐地窝铺国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YNT",
+          "cityName": "烟台"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YNT",
+            "airPortName": "烟台蓬莱机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DYG",
+          "cityName": "张家界"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DYG",
+            "airPortName": "张家界大庸机场"
+          }
+        ]
+      }
+    ],
+    "allCities": [
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YIE",
+          "cityName": "阿尔山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YIE",
+            "airPortName": "伊尔施机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AXF",
+          "cityName": "阿拉善左旗"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AXF",
+            "airPortName": "阿拉善左旗巴彦浩特机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AAT",
+          "cityName": "阿勒泰"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AAT",
+            "airPortName": "阿勒泰机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AHJ",
+          "cityName": "阿坝"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AHJ",
+            "airPortName": "阿坝红原机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AKU",
+          "cityName": "阿克苏"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AKU",
+            "airPortName": "阿克苏机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NGQ",
+          "cityName": "阿里"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NGQ",
+            "airPortName": "阿里机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AQG",
+          "cityName": "安庆"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AQG",
+            "airPortName": "安庆天柱山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AVA",
+          "cityName": "安顺/黄果树"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AVA",
+            "airPortName": "安顺黄果树机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AYN",
+          "cityName": "安阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AYN",
+            "airPortName": "安阳机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AKA",
+          "cityName": "安康"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AKA",
+            "airPortName": "安康机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AOG",
+          "cityName": "鞍山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AOG",
+            "airPortName": "鞍山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "RLK",
+          "cityName": "巴彦淖尔"
+        },
+        "airPort": [
+          {
+            "airPortCode": "RLK",
+            "airPortName": "巴彦淖尔"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "BFU",
+          "cityName": "蚌埠"
+        },
+        "airPort": [
+          {
+            "airPortCode": "BFU",
+            "airPortName": "蚌埠机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "BAV",
+          "cityName": "包头"
+        },
+        "airPort": [
+          {
+            "airPortCode": "BAV",
+            "airPortName": "包头机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "BSD",
+          "cityName": "保山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "BSD",
+            "airPortName": "保山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "BHY",
+          "cityName": "北海"
+        },
+        "airPort": [
+          {
+            "airPortCode": "BHY",
+            "airPortName": "北海机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "BJS",
+          "cityName": "北京"
+        },
+        "airPort": [
+          {
+            "airPortCode": "PEK",
+            "airPortName": "北京首都国际机场"
+          },
+          {
+            "airPortCode": "NAY",
+            "airPortName": "北京南苑机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "BFJ",
+          "cityName": "毕节"
+        },
+        "airPort": [
+          {
+            "airPortCode": "BFJ",
+            "airPortName": "毕节飞雄机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "BPX",
+          "cityName": "昌都"
+        },
+        "airPort": [
+          {
+            "airPortCode": "BPX",
+            "airPortName": "邦达机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CZX",
+          "cityName": "常州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CZX",
+            "airPortName": "常州奔牛机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CGD",
+          "cityName": "常德"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CGD",
+            "airPortName": "常德桃花源机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CHG",
+          "cityName": "朝阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CHG",
+            "airPortName": "朝阳机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CTU",
+          "cityName": "成都"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CTU",
+            "airPortName": "成都双流国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JUH",
+          "cityName": "池州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JUH",
+            "airPortName": "池州九华山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CIF",
+          "cityName": "赤峰"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CIF",
+            "airPortName": "赤峰机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DAX",
+          "cityName": "达县"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DAX",
+            "airPortName": "达县机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DAT",
+          "cityName": "大同"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DAT",
+            "airPortName": "大同机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DZU",
+          "cityName": "大足"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DZU",
+            "airPortName": "大足机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DLC",
+          "cityName": "大连"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DLC",
+            "airPortName": "大连周水子国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DLU",
+          "cityName": "大理"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DLU",
+            "airPortName": "大理机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DDG",
+          "cityName": "丹东"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DDG",
+            "airPortName": "丹东机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DCY",
+          "cityName": "稻城"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DCY",
+            "airPortName": "稻城亚丁机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LUM",
+          "cityName": "德宏芒市"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LUM",
+            "airPortName": "芒市机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DIG",
+          "cityName": "迪庆"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DIG",
+            "airPortName": "迪庆机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DGM",
+          "cityName": "东莞"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DGM",
+            "airPortName": "东莞机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DOY",
+          "cityName": "东营"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DOY",
+            "airPortName": "东营机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DNH",
+          "cityName": "敦煌"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DNH",
+            "airPortName": "敦煌机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "EJN",
+          "cityName": "额济纳旗"
+        },
+        "airPort": [
+          {
+            "airPortCode": "EJN",
+            "airPortName": "额济纳旗桃来机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DSN",
+          "cityName": "鄂尔多斯"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DSN",
+            "airPortName": "鄂尔多斯东胜机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ENH",
+          "cityName": "恩施"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ENH",
+            "airPortName": "恩施机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ERL",
+          "cityName": "二连浩特"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ERL",
+            "airPortName": "赛乌苏国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ZAX",
+          "cityName": "番禺"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ZAX",
+            "airPortName": "番禺机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "FUO",
+          "cityName": "佛山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "FUO",
+            "airPortName": "佛山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "FOC",
+          "cityName": "福州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "FOC",
+            "airPortName": "福州长乐国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "FUG",
+          "cityName": "阜阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "FUG",
+            "airPortName": "阜阳机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "FYN",
+          "cityName": "富蕴"
+        },
+        "airPort": [
+          {
+            "airPortCode": "FYN",
+            "airPortName": "富蕴机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "GXH",
+          "cityName": "甘南"
+        },
+        "airPort": [
+          {
+            "airPortCode": "GXH",
+            "airPortName": "甘南夏河机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KOW",
+          "cityName": "赣州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KOW",
+            "airPortName": "赣州黄金机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "GOQ",
+          "cityName": "格尔木"
+        },
+        "airPort": [
+          {
+            "airPortCode": "GOQ",
+            "airPortName": "格尔木机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "GHN",
+          "cityName": "广汉"
+        },
+        "airPort": [
+          {
+            "airPortCode": "GHN",
+            "airPortName": "广汉机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "GYS",
+          "cityName": "广元"
+        },
+        "airPort": [
+          {
+            "airPortCode": "GYS",
+            "airPortName": "广元机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CAN",
+          "cityName": "广州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CAN",
+            "airPortName": "广州白云国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "AEB",
+          "cityName": "广西"
+        },
+        "airPort": [
+          {
+            "airPortCode": "AEB",
+            "airPortName": "广西百色机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LHK",
+          "cityName": "广华"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LHK",
+            "airPortName": "广华机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HZH",
+          "cityName": "贵州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HZH",
+            "airPortName": "贵州黎平机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KWE",
+          "cityName": "贵阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KWE",
+            "airPortName": "贵阳龙洞堡机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KWL",
+          "cityName": "桂林"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KWL",
+            "airPortName": "桂林两江机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HMI",
+          "cityName": "哈密"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HMI",
+            "airPortName": "哈密机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HRB",
+          "cityName": "哈尔滨"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HRB",
+            "airPortName": "哈尔滨太平国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HLD",
+          "cityName": "海拉尔"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HLD",
+            "airPortName": "海拉尔机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HAK",
+          "cityName": "海口"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HAK",
+            "airPortName": "海口美兰国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HDG",
+          "cityName": "邯郸市"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HDG",
+            "airPortName": "邯郸机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HZG",
+          "cityName": "汉中"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HZG",
+            "airPortName": "汉中机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HGH",
+          "cityName": "杭州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HGH",
+            "airPortName": "杭州萧山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HCJ",
+          "cityName": "河池"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HCJ",
+            "airPortName": "河池金城江机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HFE",
+          "cityName": "合肥"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HFE",
+            "airPortName": "合肥新桥国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HTN",
+          "cityName": "和田"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HTN",
+            "airPortName": "和田机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HEK",
+          "cityName": "黑河"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HEK",
+            "airPortName": "黑河机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DQA",
+          "cityName": "黑龙江大庆"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DQA",
+            "airPortName": "大庆萨尔图机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "OHE",
+          "cityName": "黑龙江"
+        },
+        "airPort": [
+          {
+            "airPortCode": "OHE",
+            "airPortName": "漠河古莲机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JXA",
+          "cityName": "黑龙江鸡西"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JXA",
+            "airPortName": "鸡西兴凯湖机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LDS",
+          "cityName": "黑龙江伊春"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LDS",
+            "airPortName": "伊春林都机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HCN",
+          "cityName": "恒春"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HCN",
+            "airPortName": "恒春机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HNY",
+          "cityName": "衡阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HNY",
+            "airPortName": "衡阳机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HET",
+          "cityName": "呼和浩特"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HET",
+            "airPortName": "呼和浩特白塔机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HIA",
+          "cityName": "淮安"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HIA",
+            "airPortName": "淮安机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HJJ",
+          "cityName": "怀化"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HJJ",
+            "airPortName": "怀化芷江机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HYN",
+          "cityName": "黄岩"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HYN",
+            "airPortName": "黄岩路桥机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TXN",
+          "cityName": "黄山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TXN",
+            "airPortName": "黄山屯溪机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HUZ",
+          "cityName": "惠州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HUZ",
+            "airPortName": "惠州机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JIL",
+          "cityName": "吉林"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JIL",
+            "airPortName": "吉林机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JGS",
+          "cityName": "吉安/井冈山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JGS",
+            "airPortName": "吉安/井冈山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KNC",
+          "cityName": "吉安"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KNC",
+            "airPortName": "吉安机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JNG",
+          "cityName": "济宁"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JNG",
+            "airPortName": "济宁机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TNA",
+          "cityName": "济南"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TNA",
+            "airPortName": "济南遥墙机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JMU",
+          "cityName": "佳木斯"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JMU",
+            "airPortName": "佳木斯机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JGD",
+          "cityName": "加格达奇"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JGD",
+            "airPortName": "加格达奇机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JIC",
+          "cityName": "金昌"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JIC",
+            "airPortName": "金川机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JNZ",
+          "cityName": "锦州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JNZ",
+            "airPortName": "锦州机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SHS",
+          "cityName": "荆州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SHS",
+            "airPortName": "荆州沙市机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JDZ",
+          "cityName": "景德镇"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JDZ",
+            "airPortName": "景德镇罗家机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JIU",
+          "cityName": "九江"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JIU",
+            "airPortName": "九江机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JGN",
+          "cityName": "酒泉"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JGN",
+            "airPortName": "酒泉嘉峪关机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CHW",
+          "cityName": "酒泉"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CHW",
+            "airPortName": "酒泉机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JZH",
+          "cityName": "九寨/黄龙"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JZH",
+            "airPortName": "九寨黄龙机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KJI",
+          "cityName": "喀纳斯"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KJI",
+            "airPortName": "喀纳斯"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KHG",
+          "cityName": "喀什"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KHG",
+            "airPortName": "喀什机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KJH",
+          "cityName": "凯里"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KJH",
+            "airPortName": "凯里机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KRY",
+          "cityName": "克拉玛依"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KRY",
+            "airPortName": "克拉玛依机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KCA",
+          "cityName": "库车"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KCA",
+            "airPortName": "库车机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KRL",
+          "cityName": "库尔勒"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KRL",
+            "airPortName": "库尔勒机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KMG",
+          "cityName": "昆明"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KMG",
+            "airPortName": "昆明长水国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LXA",
+          "cityName": "拉萨"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LXA",
+            "airPortName": "拉萨贡嘎机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LHW",
+          "cityName": "兰州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ZGC",
+            "airPortName": "中川机场"
+          },
+          {
+            "airPortCode": "LHW",
+            "airPortName": "兰州中川机场"
+          },
+          {
+            "airPortCode": "LZD",
+            "airPortName": "兰州东机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LLB",
+          "cityName": "荔波"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LLB",
+            "airPortName": "荔波机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LJG",
+          "cityName": "丽江"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LJG",
+            "airPortName": "丽江三义机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LYG",
+          "cityName": "连云港"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LYG",
+            "airPortName": "连云港白塔埠机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LIA",
+          "cityName": "梁县"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LIA",
+            "airPortName": "梁县梁平机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LNJ",
+          "cityName": "临沧"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LNJ",
+            "airPortName": "临沧机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LYI",
+          "cityName": "临沂"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LYI",
+            "airPortName": "临沂机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LXI",
+          "cityName": "林西"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LXI",
+            "airPortName": "林西机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LLF",
+          "cityName": "零陵"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LLF",
+            "airPortName": "零陵机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LZH",
+          "cityName": "柳州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LZH",
+            "airPortName": "柳州白莲机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LPF",
+          "cityName": "六盘水"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LPF",
+            "airPortName": "六盘水月照机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LCX",
+          "cityName": "龙岩"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LCX",
+            "airPortName": "龙岩连城机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LUZ",
+          "cityName": "庐山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LUZ",
+            "airPortName": "庐山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LZO",
+          "cityName": "泸州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LZO",
+            "airPortName": "泸州机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LLV",
+          "cityName": "吕梁"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LLV",
+            "airPortName": "吕梁大武机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LYA",
+          "cityName": "洛阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LYA",
+            "airPortName": "洛阳机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NZH",
+          "cityName": "满洲里"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NZH",
+            "airPortName": "满洲里机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "MXZ",
+          "cityName": "梅县"
+        },
+        "airPort": [
+          {
+            "airPortCode": "MXZ",
+            "airPortName": "梅县机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "MIG",
+          "cityName": "绵阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "MIG",
+            "airPortName": "绵阳机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "MDG",
+          "cityName": "牡丹江"
+        },
+        "airPort": [
+          {
+            "airPortCode": "MDG",
+            "airPortName": "牡丹江机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KHN",
+          "cityName": "南昌"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KHN",
+            "airPortName": "南昌昌北机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LZN",
+          "cityName": "南竿（马祖岛）"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LZN",
+            "airPortName": "南竿机场（马祖岛）"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NAO",
+          "cityName": "南充"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NAO",
+            "airPortName": "南充机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NNG",
+          "cityName": "南宁"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NNG",
+            "airPortName": "南宁吴圩机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NNY",
+          "cityName": "南阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NNY",
+            "airPortName": "南阳机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NKG",
+          "cityName": "南京"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NKG",
+            "airPortName": "南京禄口国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NTG",
+          "cityName": "南通"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NTG",
+            "airPortName": "南通兴东机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NLT",
+          "cityName": "那拉提"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NLT",
+            "airPortName": "那拉提机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NGB",
+          "cityName": "宁波"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NGB",
+            "airPortName": "宁波栎社机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "PZI",
+          "cityName": "攀枝花"
+        },
+        "airPort": [
+          {
+            "airPortCode": "PZI",
+            "airPortName": "攀枝花机场"
+          }
+        ]
+      },
+      {
+        "nation": "TW",
+        "city": {
+          "cityCode": "PIF",
+          "cityName": "屏东"
+        },
+        "airPort": [
+          {
+            "airPortCode": "PIF",
+            "airPortName": "屏东机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NDG",
+          "cityName": "齐齐哈尔"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NDG",
+            "airPortName": "齐齐哈尔机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JIQ",
+          "cityName": "黔江"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JIQ",
+            "airPortName": "黔江舟白机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "IQM",
+          "cityName": "且末"
+        },
+        "airPort": [
+          {
+            "airPortCode": "IQM",
+            "airPortName": "且末机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SHP",
+          "cityName": "秦皇岛"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SHP",
+            "airPortName": "秦皇岛机场"
+          },
+          {
+            "airPortCode": "SHF",
+            "airPortName": "秦皇岛山海关机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TAO",
+          "cityName": "青岛"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TAO",
+            "airPortName": "青岛流亭机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "IQN",
+          "cityName": "庆阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "IQN",
+            "airPortName": "庆阳机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JUZ",
+          "cityName": "衢州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JUZ",
+            "airPortName": "衢州机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JJN",
+          "cityName": "泉州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JJN",
+            "airPortName": "泉州晋江机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "RKZ",
+          "cityName": "日喀则"
+        },
+        "airPort": [
+          {
+            "airPortCode": "RKZ",
+            "airPortName": "日喀则和平机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "RUG",
+          "cityName": "如皋"
+        },
+        "airPort": [
+          {
+            "airPortCode": "RUG",
+            "airPortName": "如皋机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SYX",
+          "cityName": "三亚"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SYX",
+            "airPortName": "三亚机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "PNJ",
+          "cityName": "沙河口"
+        },
+        "airPort": [
+          {
+            "airPortCode": "PNJ",
+            "airPortName": "沙河口机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XMN",
+          "cityName": "厦门"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XMN",
+            "airPortName": "厦门高崎国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SXJ",
+          "cityName": "鄯善"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SXJ",
+            "airPortName": "鄯善机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SWA",
+          "cityName": "汕头"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SWA",
+            "airPortName": "汕头外砂机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SHA",
+          "cityName": "上海"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SHA",
+            "airPortName": "上海虹桥机场"
+          },
+          {
+            "airPortCode": "PVG",
+            "airPortName": "上海浦东国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HSC",
+          "cityName": "韶关"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HSC",
+            "airPortName": "韶关机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SZX",
+          "cityName": "深圳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SZX",
+            "airPortName": "深圳宝安国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SHE",
+          "cityName": "沈阳"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SHE",
+            "airPortName": "沈阳桃仙国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SJW",
+          "cityName": "石家庄"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SJW",
+            "airPortName": "石家庄正定机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SYM",
+          "cityName": "思茅"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SYM",
+            "airPortName": "思茅机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "KGT",
+          "cityName": "四川"
+        },
+        "airPort": [
+          {
+            "airPortCode": "KGT",
+            "airPortName": "康定机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SZV",
+          "cityName": "苏州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SZV",
+            "airPortName": "苏州光福机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "FUD",
+          "cityName": "绥芬河"
+        },
+        "airPort": [
+          {
+            "airPortCode": "FUD",
+            "airPortName": "绥芬河阜宁机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TCG",
+          "cityName": "塔城"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TCG",
+            "airPortName": "塔城机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ZCA",
+          "cityName": "泰山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ZCA",
+            "airPortName": "泰山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TYN",
+          "cityName": "太原"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TYN",
+            "airPortName": "太原武宿机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TVS",
+          "cityName": "唐山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TVS",
+            "airPortName": "唐山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "THQ",
+          "cityName": "天水"
+        },
+        "airPort": [
+          {
+            "airPortCode": "THQ",
+            "airPortName": "天水麦积山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TSN",
+          "cityName": "天津"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TSN",
+            "airPortName": "天津机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TGO",
+          "cityName": "通辽"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TGO",
+            "airPortName": "通辽机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TNH",
+          "cityName": "通化"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TNH",
+            "airPortName": "通化柳河机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TEN",
+          "cityName": "铜仁"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TEN",
+            "airPortName": "铜仁机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WXN",
+          "cityName": "万县"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WXN",
+            "airPortName": "万县五桥机场"
+          }
+        ]
+      },
+      {
+        "nation": "TW",
+        "city": {
+          "cityCode": "WOT",
+          "cityName": "望安"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WOT",
+            "airPortName": "望安机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WEH",
+          "cityName": "威海"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WEH",
+            "airPortName": "威海文登国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WEF",
+          "cityName": "潍坊"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WEF",
+            "airPortName": "潍坊机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WNZ",
+          "cityName": "温州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WNZ",
+            "airPortName": "温州永强机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HLH",
+          "cityName": "乌兰浩特"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HLH",
+            "airPortName": "乌兰浩特机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WUA",
+          "cityName": "乌海"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WUA",
+            "airPortName": "乌海机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "URC",
+          "cityName": "乌鲁木齐"
+        },
+        "airPort": [
+          {
+            "airPortCode": "URC",
+            "airPortName": "乌鲁木齐地窝铺国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WUZ",
+          "cityName": "梧州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WUZ",
+            "airPortName": "梧州机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WHU",
+          "cityName": "芜湖"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WHU",
+            "airPortName": "芜湖机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WUX",
+          "cityName": "无锡"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WUX",
+            "airPortName": "无锡硕放机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WUH",
+          "cityName": "武汉"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WUH",
+            "airPortName": "武汉天河国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WUS",
+          "cityName": "武夷山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WUS",
+            "airPortName": "武夷山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XNN",
+          "cityName": "西宁"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XNN",
+            "airPortName": "西宁曹家堡机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XIC",
+          "cityName": "西昌"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XIC",
+            "airPortName": "西昌青山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XIL",
+          "cityName": "锡林浩特"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XIL",
+            "airPortName": "锡林浩特机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "JHG",
+          "cityName": "西双版纳/景洪"
+        },
+        "airPort": [
+          {
+            "airPortCode": "JHG",
+            "airPortName": "西双版纳景洪机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SIA",
+          "cityName": "西安"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XIY",
+            "airPortName": "西安咸阳国际机场"
+          },
+          {
+            "airPortCode": "SIA",
+            "airPortName": "西安咸阳机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "LZY",
+          "cityName": "西藏林芝"
+        },
+        "airPort": [
+          {
+            "airPortCode": "LZY",
+            "airPortName": "林芝米林机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XFN",
+          "cityName": "襄樊"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XFN",
+            "airPortName": "襄樊机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "BPL",
+          "cityName": "新疆"
+        },
+        "airPort": [
+          {
+            "airPortCode": "BPL",
+            "airPortName": "博乐机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XEN",
+          "cityName": "兴城"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XEN",
+            "airPortName": "兴城机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XIN",
+          "cityName": "兴宁"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XIN",
+            "airPortName": "兴宁机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ACX",
+          "cityName": "兴义"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ACX",
+            "airPortName": "兴义机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XNT",
+          "cityName": "邢台"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XNT",
+            "airPortName": "邢台机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "XUZ",
+          "cityName": "徐州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "XUZ",
+            "airPortName": "徐州观音机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YNT",
+          "cityName": "烟台"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YNT",
+            "airPortName": "烟台蓬莱机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YNJ",
+          "cityName": "延吉"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YNJ",
+            "airPortName": "延吉机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YNZ",
+          "cityName": "盐城"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YNZ",
+            "airPortName": "盐城机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ENY",
+          "cityName": "延安"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ENY",
+            "airPortName": "延安二十里铺机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "SZO",
+          "cityName": "剡州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "SZO",
+            "airPortName": "剡州机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YTY",
+          "cityName": "扬州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YTY",
+            "airPortName": "扬州泰州机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YIN",
+          "cityName": "伊宁"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YIN",
+            "airPortName": "伊宁机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YLN",
+          "cityName": "宜兰"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YLN",
+            "airPortName": "宜兰机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YIH",
+          "cityName": "宜昌"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YIH",
+            "airPortName": "宜昌三峡机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YIC",
+          "cityName": "宜春"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YIC",
+            "airPortName": "宜春明月山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YBP",
+          "cityName": "宜宾"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YBP",
+            "airPortName": "宜宾机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YIW",
+          "cityName": "义乌"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YIW",
+            "airPortName": "义乌机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "INC",
+          "cityName": "银川"
+        },
+        "airPort": [
+          {
+            "airPortCode": "INC",
+            "airPortName": "银川河东机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "UYN",
+          "cityName": "榆林"
+        },
+        "airPort": [
+          {
+            "airPortCode": "UYN",
+            "airPortName": "榆林机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YUS",
+          "cityName": "玉树"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YUS",
+            "airPortName": "玉树巴塘机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YUA",
+          "cityName": "元谋"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YUA",
+            "airPortName": "元谋机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "WNH",
+          "cityName": "云南文山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "WNH",
+            "airPortName": "文山普者黑机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "TCZ",
+          "cityName": "云南"
+        },
+        "airPort": [
+          {
+            "airPortCode": "TCZ",
+            "airPortName": "腾冲机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YCU",
+          "cityName": "运城"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YCU",
+            "airPortName": "运城机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ZHA",
+          "cityName": "湛江"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ZHA",
+            "airPortName": "湛江机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ZQZ",
+          "cityName": "张家口"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ZQZ",
+            "airPortName": "宁远机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "YZY",
+          "cityName": "张掖"
+        },
+        "airPort": [
+          {
+            "airPortCode": "YZY",
+            "airPortName": "张掖机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "DYG",
+          "cityName": "张家界"
+        },
+        "airPort": [
+          {
+            "airPortCode": "DYG",
+            "airPortName": "张家界大庸机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CGQ",
+          "cityName": "长春"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CGQ",
+            "airPortName": "长春龙嘉机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CIH",
+          "cityName": "长治"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CIH",
+            "airPortName": "长治机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CSX",
+          "cityName": "长沙"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CSX",
+            "airPortName": "长沙黄花机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "NBS",
+          "cityName": "长白山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "NBS",
+            "airPortName": "长白山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ZAT",
+          "cityName": "昭通"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ZAT",
+            "airPortName": "昭通机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CGO",
+          "cityName": "郑州"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CGO",
+            "airPortName": "郑州新郑机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ZHY",
+          "cityName": "中卫"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ZHY",
+            "airPortName": "中卫机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "CKG",
+          "cityName": "重庆"
+        },
+        "airPort": [
+          {
+            "airPortCode": "CKG",
+            "airPortName": "重庆江北国际机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "HSN",
+          "cityName": "舟山/普陀山"
+        },
+        "airPort": [
+          {
+            "airPortCode": "HSN",
+            "airPortName": "舟山普陀山机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ZUH",
+          "cityName": "珠海"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ZUH",
+            "airPortName": "珠海三灶机场"
+          }
+        ]
+      },
+      {
+        "nation": "CN",
+        "city": {
+          "cityCode": "ZYI",
+          "cityName": "遵义"
+        },
+        "airPort": [
+          {
+            "airPortCode": "ZYI",
+            "airPortName": "遵义机场"
+          }
+        ]
+      }
+    ]
+  }
+}

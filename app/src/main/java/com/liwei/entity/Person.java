@@ -1,9 +1,38 @@
 package com.liwei.entity;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 /**
  * Created by wei.li on 2015/10/26.
  */
-public class Person  {
+public class Person  implements Parcelable{
+
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+
+    }
+
+
+    public static final Creator<Person> CREATOR = new Creator<Person>() {
+        @Override
+        public Person createFromParcel(Parcel source) {
+            return null;
+        }
+
+        @Override
+        public Person[] newArray(int size) {
+            return new Person[size];
+        }
+    };
+
+
 
     private int id;
     private String name;

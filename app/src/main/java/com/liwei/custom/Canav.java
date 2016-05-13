@@ -20,6 +20,7 @@ public class Canav extends View {
         super(context);
 
         paint.setAntiAlias(true);
+
     }
 
     public Canav(Context context, AttributeSet attrs) {

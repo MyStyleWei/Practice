@@ -1,11 +1,12 @@
 package com.example.weili.practice;
 
-import android.os.Handler;
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import com.liwei.custom.BarrageView;
 
@@ -13,7 +14,7 @@ import java.util.Random;
 
 
 
-public class BarrageActivity extends ActionBarActivity {
+public class BarrageActivity extends Activity {
 
     public static final int DELAY_TIME = 800;
     private Random random = new Random();

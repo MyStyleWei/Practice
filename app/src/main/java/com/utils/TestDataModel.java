@@ -21,6 +21,6 @@ public class TestDataModel {
 
     public void setRetainedTextView(TextView textView){
         mRetainedTextView = textView;
-    }
+}
 
 }

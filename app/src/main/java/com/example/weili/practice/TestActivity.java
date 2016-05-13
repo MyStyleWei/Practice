@@ -1,6 +1,6 @@
 package com.example.weili.practice;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.utils.TestDataModel;
 
 
-public class TestActivity extends ActionBarActivity {
+public class TestActivity extends Activity {
 
 
     private TextView textView;
@@ -21,6 +21,8 @@ public class TestActivity extends ActionBarActivity {
 
         textView = (TextView) findViewById(R.id.refText);
         TestDataModel.getInstance().setRetainedTextView(textView);
+
+
 
     }
 

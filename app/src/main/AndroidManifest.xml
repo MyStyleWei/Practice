@@ -1,65 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.weili.practice" >
+          package="com.example.weili.practice">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
 
     <application
         android:name="com.application.MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
+
+        <!--
+         <meta-data
+        android:name="UMENG_CHANNEL"
+        android:value="${UMENG_CHANNEL_VALUE}"/>
+        -->
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face"/>
+
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".SnackbarActivity"
-            android:label="@string/title_activity_snackbar" >
-        </activity>
+            android:label="@string/title_activity_snackbar"/>
         <activity
             android:name=".BarrageActivity"
-            android:label="@string/title_activity_barrage" >
-        </activity>
+            android:label="@string/title_activity_barrage"/>
         <activity
             android:name=".CavaActivity"
-            android:label="@string/title_activity_cava" >
-        </activity>
+            android:label="@string/title_activity_cava"/>
         <activity
             android:name=".ScorActivity"
-            android:label="@string/title_activity_scor" >
-        </activity>
+            android:label="@string/title_activity_scor"/>
         <activity
             android:name=".RxJavaActivity"
-            android:label="@string/title_activity_rx_java" >
-        </activity>
+            android:label="@string/title_activity_rx_java"/>
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login" >
-        </activity>
+            android:label="@string/title_activity_login"/>
         <activity
             android:name=".RadialActivity"
-            android:label="@string/title_activity_radial" >
-        </activity>
+            android:label="@string/title_activity_radial"/>
         <activity
             android:name=".SweepGradientActivity"
-            android:label="@string/title_activity_sweep_gradient" >
-        </activity>
+            android:label="@string/title_activity_sweep_gradient"/>
         <activity
             android:name=".RefWatcherActivity"
-            android:label="@string/title_activity_ref_watcher" >
-        </activity>
+            android:label="@string/title_activity_ref_watcher"/>
         <activity
             android:name=".TestActivity"
-            android:label="@string/title_activity_test" >
-        </activity>
+            android:label="@string/title_activity_test"/>
         <activity
-            android:name=".FragmentActivity"
-            android:label="@string/title_activity_fragment" >
+            android:name=".DialogActivity"
+            android:label="@string/title_activity_dialog"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MyDialogActivity"/>
+        <activity android:name=".ObseverActivity"/>
+        <activity android:name=".ScrollActivity"/>
+        <activity android:name=".RealmObihectActivity"/>
+        <activity
+            android:name=".CustomScrollerActivityt"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".TestGestActivity"/>
+        <activity android:name=".ViewGrouActivity"/>
+        <activity android:name=".MyCalarmActivity"/>
+        <activity android:name=".CaralmActivity"/>
+        <activity android:name=".WindowViewActivity"/>
+        <activity android:name=".ScrollToActivity"/>
+        <activity android:name=".RippleButtonActivity"/>
+        <activity android:name=".FaceOverlayViewActivity"/>
+        <activity android:name=".CardActivity"/>
+        <activity android:name=".ListActivity"/>
+        <activity android:name=".RecycActivity"/>
+        <activity android:name=".HeadViewActivity"/>
+        <activity android:name=".ExpandListActivity"/>
+        <activity android:name=".ExpandActivity"/>
+        <activity android:name=".PaintActivity"/>
+        <activity android:name=".PopActivity"/>
+        <activity android:name=".EditActivity"/>
+        <activity android:name=".TestEditActivity"/>
+        <activity android:name=".ToobarActivity"/>
+        <activity android:name=".ProActivity"/>
+        <activity android:name=".SpanActivity"/>
+        <activity android:name=".InputActivity"/>
+        <activity android:name=".NativiewActivity"/>
+        <activity android:name=".OrderActivity"/>
+        <activity android:name=".RevealTextViewActivity"/>
+        <activity android:name=".PeriscopeActivity"/>
+        <activity android:name=".FrescoActivity"/>
+        <activity android:name=".CalendarActivityl"/>
+        <activity android:name=".ExpandTextViewActivity"/>
+        <activity android:name=".EdittextActivity"/>
+        <activity android:name=".CoordinatorLayoutActivity"/>
+        <activity android:name=".Drawactivity"/>
+        <activity android:name=".UnderLineActivity"/>
+        <activity android:name=".ScrollerActivity"/>
+        <activity android:name=".CameraActivity"/>
+        <activity android:name=".CustomCanvasActivity"/>
+        <activity android:name=".NDActivity"/>
+        <activity android:name=".BlueTeethActivity"/>
+        <activity android:name=".TDviewActivity"/>
+        <activity android:name=".MySlidingMenuActivity"/>
+        <activity android:name=".ObserListActivity"/>
+        <activity android:name=".NewSupportLibraryActivity"/>
+        <activity android:name=".RoundActivity"/>
+        <activity android:name=".RangSeekBarActivity"/>
+        <activity android:name=".WebviewActivity"/>
+        <activity android:name=".AnimatorActivity"/>
+        <activity android:name=".TsetSVGAnimatorActivity"/>
+        <activity android:name=".TestBaseAdapterActivity"/>
+        <activity android:name=".ABAdapterRecycyViewActivity"/>
+        <activity android:name=".TestCenterActivity">
+        </activity>
+        <activity android:name=".TestOptionsActivity">
+        </activity>
+        <activity android:name=".TestTransitionActivity">
+        </activity>
+        <activity android:name=".ActivityOptionsActivity">
+        </activity>
+        <activity android:name=".ImageDetailActivity">
+        </activity>
+        <activity android:name=".ElevationActivity">
+        </activity>
+        <activity android:name=".PracticeMVPActivity">
+        </activity>
+        <activity android:name=".TypeListViewActivity">
+        </activity>
+
+        <service
+            android:name="com.service.MyServivce"
+            android:process="com.service.remote"/>
+
+        <activity android:name=".PaintXfermodeActivity">
         </activity>
     </application>
 

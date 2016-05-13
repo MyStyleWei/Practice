@@ -1,29 +1,110 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:theme="@style/AppTheme"
     tools:context="com.example.weili.practice.SnackbarActivity">
 
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/appbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="350dp"-->
+        <!--&gt;-->
+
+        <!--<android.support.design.widget.CollapsingToolbarLayout-->
+            <!--android:id="@+id/colls"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="350dp"-->
+            <!--android:background="@drawable/a2"-->
+            <!--app:layout_scrollFlags="scroll|exitUntilCollapsed"-->
+            <!--&gt;-->
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_margin="0dp"-->
+            <!--app:layout_anchorGravity="bottom|right|end"-->
+            <!--app:backgroundTint="#FF00FF00"-->
+            <!--app:rippleColor="#FF0000FF"-->
+            <!--app:borderWidth="0dp"-->
+            <!--app:fabSize="normal"-->
+            <!--app:elevation="10dp"-->
+            <!--app:pressedTranslationZ="20dp"/>-->
+
+
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--app:title="holle"-->
+            <!--app:titleTextColor="#ffffff"-->
+            <!--/>-->
+        <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
         <Button
             android:id="@+id/btn"
             android:text="@string/hello_world"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <android.support.design.widget.FloatingActionButton
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        <ImageView
+            android:id="@+id/img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_margin="0dp"
-            app:backgroundTint="#FF00FF00"
-            app:rippleColor="#FF0000FF"
-            app:borderWidth="0dp"
-            app:fabSize="normal"
-            app:elevation="10dp"
-            app:pressedTranslationZ="20dp"/>
+            android:src="@drawable/li"/>
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/liwei"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"/>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/liwei2"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"/>
 
-</RelativeLayout>
+        <com.widget.caladen.CheckableTextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nihaoi"
+            android:layout_marginTop="20dp"
+            />
+
+        <com.widget.caladen.ClearEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="巴黎，机场名字（机场三字码/国家）"
+            />
+
+
+        <com.widget.caladen.Bezier
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

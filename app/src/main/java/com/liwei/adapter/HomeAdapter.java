@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by wei.li on 2015/10/21.
  */
-public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder>{
+public class HomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
 
     private Context mContext;
     private List<String> mDatas;
@@ -43,19 +43,35 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder>{
     }
 
     @Override
-    public void onBindViewHolder(final MyViewHolder holder, final int position) {
-            holder.tv.setText(mDatas.get(position));
+    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+      final  MyViewHolder holder1 = (MyViewHolder)holder;
+                holder1.tv.setText(mDatas.get(position));
             if(listener != null){
-                holder.tv.setOnClickListener(new View.OnClickListener(){
+                holder1.tv.setOnClickListener(new View.OnClickListener(){
 
                     @Override
                     public void onClick(View v) {
-                        int pos = holder.getLayoutPosition();
-                        listener.onItemClick(holder.itemView,pos);
+                        int pos = holder1.getLayoutPosition();
+                        listener.onItemClick(holder1.itemView,pos);
                     }
                 });
             }
     }
+
+//    @Override
+//    public void onBindViewHolder(final MyViewHolder holder, final int position) {
+//            holder.tv.setText(mDatas.get(position));
+//            if(listener != null){
+//                holder.tv.setOnClickListener(new View.OnClickListener(){
+//
+//                    @Override
+//                    public void onClick(View v) {
+//                        int pos = holder.getLayoutPosition();
+//                        listener.onItemClick(holder.itemView,pos);
+//                    }
+//                });
+//            }
+//    }
 
     @Override
     public int getItemCount() {
